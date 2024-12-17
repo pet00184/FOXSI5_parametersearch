@@ -17,12 +17,16 @@ Attempting a parameter search that moves away from a single trigger and cancella
 
 **Minute -1: data that surpasses trigger comes in**
  - discussion begins with the goal of starting the count so that a new datapoint comes in at the 30ish second mark. For the simulation, assume we discuss for 30 seconds then. 
+ 
 **Minute 0: the count begins**
  - at the 30 second mark, new datapoint 1 comes in, and we have **cancellation 1** to surpass. 
+ 
 **Minute 1: two minutes left of count**
  - at the 1:30 mark, new datapoint 2 comes in and we have **cancellation 2** to surpass.
+ 
 **Minute 2: one minute left of count**
  - at the 2:30 mark, new datapoint 3 comes in and we have **cancellation 3** to surpass.
+ 
 **Minute 3: we launch!**
 
 Therefore, we have the trigger and 3 cancellation thresholds. 
